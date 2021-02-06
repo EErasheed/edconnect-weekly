@@ -20,11 +20,13 @@
     </nav>
     <main>
         <section>
-            <h1>Search Project By</h1>
+            <header>
+                <h1>Search Project By</h1>
+            </header>
             <form name="searchForm">
                 <input type="text" name="searchTerm" placeholder="Project Name, Authors, Abstract, Tags"><br>
                 <br>
-                <select>
+                <select name="searchType">
                 <option value="Name">Name</option>
                 <option value="Abstract">Abstract</option>
                 <option value="Authors">Authors</option>
@@ -34,15 +36,21 @@
             </form>
         </section>
         <section>
-            <h1>Search Result</h1>
+
+            <header>
+                <h1>Search Result</h1>
+            </header>
             <div>
-                <h2>Project 1</h2>
+                <header>
+                    <h2>Project 1</h2>
+                </header>
                 <ul>
                     <li>Name: Project 1</li>
                     <li>Description: Considering that images can be within files for your web page or anywhere online</li>
                     <li>Program: Computer Science</li>
                     <li>Authors: Rasheed Isah</li>
                     <li>Tags: RVGZ@</li>
+                    <li>Year: 2019</li>
                 </ul>
             </div>
         </section>

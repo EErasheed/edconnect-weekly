@@ -29,7 +29,9 @@
             </ul>
         </section>
         <section>
-            <h1>Update</h1>
+            <header>
+                <h2>Update profile</h2>
+            </header>
             <form name="updateProfile">
                 <label for="fname">Fist Name:</label>
                 <input type="text" name="firstname" id="fname"><br><br>
@@ -61,14 +63,21 @@
             </form>
         </section>
         <section>
-            <h2>Change Password</h2>
+            <header>
+                <h2>Change Password</h2>
+            </header>
 
-            <form>
+
+            <form name="changePassword">
                 <label for="Password">Current password:</label>
                 <input type="password" name="currentpassword" id="password"><br><br>
                 <label for="Password">New password:</label>
                 <input type="password" name="newpassword" id="password"><br><br>
+                <label for="Password">Confirm Password:</label>
+                <input type="password" name="confirmPassword" id="password"><br><br>
+                <input type="submit" value="Submit">
             </form>
+
         </section>
     </main>
 </body>
