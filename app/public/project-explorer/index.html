@@ -3,66 +3,96 @@
 <head>
     <title> Project explorer week two assignment</title>
 </head>
-<link rel="stylesheet" href="bootstrap.min.css">
-
+<link rel="stylesheet" href="css/bootstrap.min.css">
 
 <body>
-    <header>
-        <h1>Project Explorer</h1>
-        <h2>One Stop Database for Academic Projects</h2>
-    </header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#" href="index.html">Home</a>
-        <form class="form-inline" name="searchForm">
-            <label class="sr-only" for="searchForm"> search Projects:</label>
+    <div class="container-fluid pt-3 pb-5">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#" href="index.html">Project Explorer</a>
+            <form class="form-inline" name="searchForm">
+                <input type="text" class="mr-sm-4 form-control" me="searchForm" placeholder="search projects">
+                <label class="sr-only" for="searchForm"> search Projects:</label>
+                <button type="submit" class="btn btn-outline-light"> Search</button>
+            </form>
+            <a href="search.html">Projects</a>
+            <a href="login.html ">Login</a>
+            <a href="register.html ">Register</a>
+            <a href="createproject.html ">Submit</a>
+        </nav>
+        <main>
+            <div class="jumbotron mt-2 mx-4">
+                <h1 class="display-4">Welcome to project Explorer</h1>
+                <P>This application allows you to explore various academic projects. You can search, upload and browse projects</P>
+                <hr class="my-4">
+                <a class="btn btn-primary" href="register.html" role="button">Get Started</a>
+                <a class="btn btn-secondary " href="login.html" role="button">Login</a>
+            </div>
 
-            <input type="text" class="form-control" name="searchForm" placeholder="search projects">
-            <button type="submit" class="btn btn-outline-light"> Search</button>
-        </form>
-        <a href="search.html">Projects</a>
-        <a href="login.html ">Login</a>
-        <a href="register.html ">Register</a>
-        <a href="createproject.html ">Submit</a>
-    </nav>
-    <main>
-        <div class="jumbotron">
-            <h1 class="display-4">Welcome to project Explorer</h1>
-            <P>This application allows you to explore various academic projects. You can search, upload and browse projects</P>
-            <hr class="my-4">
-            <a class="btn btn-primary" href="register.html" role="button">Get Started</a>
-            <a class="btn btn-secondary " href="login.html" role="button">Login</a>
-        </div>
-        <header>
-            <h1>Projects List</h1>
-        </header>
-        <section>
-            <h2>Project 1</h2>
-            <ul>
-                <li>Name: project 1</li>
-                <li>Description: Optimize your project portfolio to prioritize initiatives and get the results you want through your choice</li>
-                <li>program: computer science</li>
-                <li>Year: 2018</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Project 2</h2>
-            <ul>
-                <li>Name: project 2</li>
-                <li>Description: DIY Projects for the Home Skip store bought decorations and personalize your space with items that you make yourself</li>
-                <li>program: computer science</li>
-                <li>Year: 2019</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Project 3</h2>
-            <ul>
-                <li>Name: project 3</li>
-                <li>Description: From drywall repairs and paint projects to kids’ crafts. You’ll also learn proper safety measures and skill building. Garden Projects and Ideas.</li>
-                <li>program: computer science</li>
-                <li>Year: 2020</li>
-            </ul>
-        </section>
-    </main>
+            <div class="container-fluid pt-3 pb-5">
+                <div class="row p-3 mx-3">
+                    <div class="col-sm-12 col-md-3 col-lg-3 card">
+                        <div class="card-body">
+                            <h4 class="card-title text-primary">Project Title</h4>
+                            <h5 class="card-subtitle">Author 1, Author 2</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                            <div class="d-flex flex-row">
+                                <a href="#" class="card-link">#html</a>
+                                <a href="#" class="card-link">#css</a>
+                                <a href="#" class="card-link">#javascript</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3 card">
+                        <div class="card-body">
+                            <h4 class="card-title text-primary">Project Title</h4>
+                            <h5 class="card-subtitle">Author 1, Author 2</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                            <div class="d-flex flex-row">
+                                <a href="#" class="card-link">#html</a>
+                                <a href="#" class="card-link">#css</a>
+                                <a href="#" class="card-link">#javascript</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3 card">
+                        <div class="card-body">
+                            <h4 class="card-title text-primary">Project Title</h4>
+                            <h5 class="card-subtitle">Author 1, Author 2</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                            <div class="d-flex flex-row">
+                                <a href="#" class="card-link">#html</a>
+                                <a href="#" class="card-link">#css</a>
+                                <a href="#" class="card-link">#javascript</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3 card">
+                        <div class="card-body">
+                            <h4 class="card-title text-primary">Project Title</h4>
+                            <h5 class="card-subtitle">Author 1, Author 2</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                            <div class="d-flex flex-row">
+                                <a href="#" class="card-link">#html</a>
+                                <a href="#" class="card-link">#css</a>
+                                <a href="#" class="card-link">#javascript</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
 </body>
+<footer class="bg-light text-right m-1 p-2 ">Project Explorer &copy2021 <a href="http://edconnect.ng">.Edconnect</a> </footer>
+</div>
 
 </html>
